@@ -8,7 +8,6 @@ const SkillCard = ({cardData}) => {
 		return (
 			<Col sm={24} md={12} lg={8} key={i}>
 				<Card className="skill-card__info" title={`${title.titleIdx}   ${title.titleText}`}>
-					Test
 				</Card>
 			</Col>
 		)

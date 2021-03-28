@@ -126,9 +126,9 @@ const Skills = (props) => {
 				</div>
 			</TabPane>
 			<TabPane tab={<div className="parent"><span className="hover hover-1">Courses</span></div>} key="3">
-				<p>Content of Tab Pane 3</p>
-				<p>Content of Tab Pane 3</p>
-				<p>Content of Tab Pane 3</p>
+				<p>There are poeple leaving here</p>
+				<p>3 AM mind</p>
+				{/*<p>Content of Tab Pane 3</p>*/}
 			</TabPane>
 		</Tabs>
 

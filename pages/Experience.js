@@ -25,26 +25,26 @@ const Experience = () => {
 									<Timeline.Item color="green">
 										2019 - Freshman
 										Semester 1 Courses
-										<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-										<p>Bachelor's degree in Computer Engineering</p>
+										<h5 style={{fontWeight: 'bold'}}>something good </h5>
+
 									</Timeline.Item>
 									<Timeline.Item color="green">
 										2020 - Freshman
 										Semester 2 Courses
-										<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-										<p>Bachelor's degree in Computer Engineering</p>
+										<h5 style={{fontWeight: 'bold'}}>dont know what </h5>
+
 									</Timeline.Item>
 									<Timeline.Item color="green">
 										2020 - Sophomore
 										Semester 3 Courses
-										<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-										<p>Bachelor's degree in Computer Engineering</p>
+										<h5 style={{fontWeight: 'bold'}}>Izmir, Turkey</h5>
+										<p>something in engr200</p>
 									</Timeline.Item>
 									<Timeline.Item color="green">
 										2021 - Sophomore
 										Semester 4 Courses
-										<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-										<p>Bachelor's degree in Computer Engineering</p>
+										<h5 style={{fontWeight: 'bold'}}>title heree</h5>
+										<p>something in comp202</p>
 									</Timeline.Item>
 
 								</Timeline>
