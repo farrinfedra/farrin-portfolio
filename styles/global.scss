@@ -1,0 +1,196 @@
+
+.contact {
+  input {
+	border-radius: 50px;
+	border: none;
+  }
+
+  .ant-input-textarea {
+	border-radius: 50px;
+  }
+
+  textarea {
+	border-radius: 10px;
+  }
+}
+
+.z-depth-1a {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+  box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+}
+
+.sidebar {
+  background-color: #2b2e4a;
+  flex: 0 0 300px !important;
+  width: 300px !important;
+  max-width: 300px !important;
+  min-height: 800px;
+
+  & .ant-menu {
+	background-color: inherit !important;
+  }
+
+  & a {
+	font-size: 1.2rem;
+	color: white;
+
+	&:hover {
+	  text-decoration: none;
+	}
+  }
+
+  & .ant-menu-item-selected {
+	& a {
+	  font-size: 1.2rem;
+	  color: red; // selected menu color
+	  &:hover {
+		text-decoration: none;
+	  }
+	}
+  }
+
+
+  & .logo {
+	text-align: center;
+	font-size: 1.7rem;
+	margin-bottom: 7rem;
+	color: white;
+  }
+}
+
+.about-me {
+  padding-top: 5rem;
+  display: flex;
+
+  &__card {
+	border-radius: 20px;
+	box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+	margin-left: 2rem;
+
+	&--info {
+	  display: flex;
+	  flex-direction: column;
+	}
+  }
+
+}
+
+.experience-card {
+  border-radius: 20px;
+  box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+
+  &-info {
+	padding: 40px;
+  }
+}
+
+.skill-card {
+  &__info {
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+  }
+}
+
+.about-icons {
+  font-size: 60px !important;
+  color: #902749 !important;
+}
+
+.home {
+  padding: 50px 40px 40px;
+}
+
+.about {
+  &__desc {
+	line-height: 200%;
+	padding: 1rem 2rem;
+  }
+}
+
+.skills-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .ant-tabs-nav {
+	padding: 1rem 2.5rem;
+	width: 50%;
+  }
+
+  & .ant-tabs-ink-bar {
+	width: 0 !important;
+  }
+
+  & .ant-tabs-nav-list {
+	width: 100%;
+	justify-content: space-around;
+  }
+
+  & .ant-tabs-content-holder {
+	padding: 1rem 2rem;
+  }
+}
+
+
+.hover {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  //font-weight: bolder;
+
+  &:before,
+  &:after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	width: 0px;
+	height: 5px;
+	margin: 5px 0 0;
+	transition: all 0.2s ease-in-out;
+	transition-duration: 0.75s;
+	opacity: 0;
+	background-color: red; //color of underline slide
+  }
+
+  &.bluex:before,
+  &.bluex:after {
+	background-color: blue;
+	height: 2px;
+  }
+
+  &.hover-1 {
+	&:before,
+	&:after {
+	  left: 0;
+	}
+  }
+}
+
+.parent:hover {
+  cursor: pointer;
+
+  .hover {
+	&:before,
+	&:after {
+	  width: 100%;
+	  opacity: 1;
+	}
+  }
+}
+
+
+.queue-simple {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
