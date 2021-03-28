@@ -6,7 +6,7 @@ const DownloadPDF = (props) => {
 
 	return (
 		<a href="/static/farrin-resume.pdf">
-			<Button type="primary" icon={<DownloadOutlined />} shape="round">
+			<Button danger type="primary" icon={<DownloadOutlined />} shape="round">
 				Download CV
 			</Button>
 		</a>

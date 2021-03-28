@@ -20,14 +20,14 @@ const MainContent = (props) => {
 						wrapper="b"
 						steps={
 							[
-								'developer', 1000, 'computer engineer', 1000,
+								'Computer Engineer', 1000, 'Developer', 500, 'Writer',400
 							]
 						}
 					/>
 				</p>
 				<div>
-					{getSVG('linkedin', {class: 'mx-3'})}
-					{getSVG('github', {class: 'mx-3'})}
+					<a target="blank" href={'https://www.linkedin.com/in/farrin-marouf-sofian/'}>{getSVG('linkedin', {class: 'mx-3'})}</a>
+					<a target="blank" href={'https://github.com/farrinfedra'}>{getSVG('github', {class: 'mx-3'})}</a>
 				</div>
 			</Col>
 		</Row>

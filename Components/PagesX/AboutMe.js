@@ -10,8 +10,12 @@ const AboutMe = () => {
 			<Card className="about-me__card" hoverable bordered>
 				<div className="about-me__card--info">
 					<p style={{width: "100%"}}>
-						I am Farrin Marouf Sofian, a sophomore student in Computer Engineering at Koç University
-						Istanbul, Turkey. I dont know what else.
+						I am Farrin Marouf Sofian, a sophomore student studying Computer Engineering at Koç University
+						Istanbul, Turkey. I love admire creative work and inventing new things, this is why I chose
+						my career path as computer engineering to integrate different majors with my degree to implement
+						intriguing projects.
+						This is my personal website. I have developed this website to share useful
+						content and contact with people around the world.
 					</p>
 					<div style={{textAlign:'center'}}>
 						<DownloadPDF/>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Col} from "antd";
+import {Card, Col, List} from "antd";
 
 
 const SkillCard = ({cardData}) => {
@@ -7,7 +7,8 @@ const SkillCard = ({cardData}) => {
 	return cardData.map((title, i) => {
 		return (
 			<Col sm={24} md={12} lg={8} key={i}>
-				<Card className="skill-card__info" title={`${title.titleIdx}   ${title.titleText}`}>
+				<Card style={{'height': '100%'}} className="skill-card__info" title={`${title.titleIdx}   ${title.titleText}`}>
+					<List.Item>{title.description}</List.Item>
 				</Card>
 			</Col>
 		)

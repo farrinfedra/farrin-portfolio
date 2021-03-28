@@ -11,42 +11,58 @@ const Skills = (props) => {
 	const arrayOfTitles = [
 		{
 			titleIdx: '01',
-			titleText: 'C Programming Language'
+			titleText: 'C Programming Language',
+			description: 'Took Comp132, Advanced programming course and Comp201, Computer Systems & Programming ' +
+				'classes at the university. Learned about basics of C programming languages, implemented Floyd–Warshall ' +
+				'algorithm in C to find the shortest path between given set of cities, implemented a mock supermarket' +
+				'queue representing stack and queue.'
+
 		}, {
 			titleIdx: '02',
-			titleText: 'Java Programming Language'
+			titleText: 'Java Programming Language',
+			description:'Learn about basic elements of Java programming,'
 		}, {
 			titleIdx: '03',
-			titleText: 'Assembly'
+			titleText: 'Assembly',
+			description:''
 		}, {
 			titleIdx: '04',
-			titleText: 'JavaScript'
+			titleText: 'JavaScript',
+			description:''
 		}, {
 			titleIdx: '05',
-			titleText: 'React.js'
+			titleText: 'React.js',
+			description:''
 		}, {
 			titleIdx: '06',
-			titleText: 'Node.js'
+			titleText: 'Node.js',
+			description:''
 		}, {
 			titleIdx: '07',
-			titleText: 'Next.js'
+			titleText: 'Next.js',
+			description:''
 		}, {
 			titleIdx: '08',
-			titleText: 'Sass'
+			titleText: 'Sass',
+			description:''
 		}, {
 			titleIdx: '09',
-			titleText: 'Microsoft Office'
+			titleText: 'Microsoft Office',
+			description:''
 		}, {
 			titleIdx: '10',
-			titleText: 'Git/ Github VCS'
+			titleText: 'Git / Github VCS',
+			description:''
 		},
 		{
 			titleIdx: '11',
-			titleText: 'Video editing'
+			titleText: 'Video editing',
+			description:'yechizi begu'
 		},
 		{
 			titleIdx: '12',
-			titleText: 'NOSQL Mongodb'
+			titleText: 'NOSQL Mongodb',
+			description:'yechizi begu'
 		},
 	]
 	return (
@@ -126,7 +142,7 @@ const Skills = (props) => {
 				</div>
 			</TabPane>
 			<TabPane tab={<div className="parent"><span className="hover hover-1">Courses</span></div>} key="3">
-				<p>There are poeple leaving here</p>
+				<p>There are people leaving here</p>
 				<p>3 AM mind</p>
 				{/*<p>Content of Tab Pane 3</p>*/}
 			</TabPane>

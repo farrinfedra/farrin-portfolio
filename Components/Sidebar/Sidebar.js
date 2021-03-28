@@ -5,8 +5,8 @@ import Link from 'next/link'
 const Sidebar = (props) => {
 	return (
 		<Row>
-			<div className="logo">
-				Farrin
+			<div className="logo logo-style">
+				Farrin<span className="logo-span">.</span>
 			</div>
 			<Menu mode="inline" defaultSelectedKeys={['1']}>
 				<Menu.Item key="1">

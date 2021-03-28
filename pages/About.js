@@ -54,9 +54,7 @@ const About = () => {
 									time
 									to
 									make sure
-									everything goes according to the plan. I've always enjoyed taking responsibilities and
-									pushing myself
-									to shine with them.
+									everything goes according to the plan. I've always enjoyed taking responsibilities.
 								</p>
 							</Col>
 						</Row>
