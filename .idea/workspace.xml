@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="555e9927-6ce5-4f57-9e02-f0e0a8a318fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/HeadData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/static" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -56,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616896764786</updated>
       <workItem from="1616896766198" duration="1112000" />
-      <workItem from="1616898165667" duration="532000" />
+      <workItem from="1616898165667" duration="1296000" />
     </task>
     <servers />
   </component>
