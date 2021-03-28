@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from 'react';
 const HeadData = () => {
+    return(
     <Head>
         <title>Farrin Marouf Sofian</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
@@ -13,5 +14,6 @@ const HeadData = () => {
         <meta name="description"
               content="Farrin Marouf Sofian Portfolio"/>
     </Head>
+    )
 }
 export default HeadData;
