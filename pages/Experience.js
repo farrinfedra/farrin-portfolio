@@ -69,7 +69,7 @@ const Experience = () => {
                                     <Timeline.Item color="red">
                                         2020
 
-                                        <h5 style={{fontWeight: 'bold'}}>Burger Builder React Project</h5>
+                                        <h5 style={{fontWeight: 'bold'}}>Burger Builder React and Node.js based Project</h5>
                                         <p>
                                             Building a burger based on the ingredients that clients add and
                                             rendering the burger on the screen as the ingredients are added.

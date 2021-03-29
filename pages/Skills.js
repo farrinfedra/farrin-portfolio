@@ -20,49 +20,60 @@ const Skills = (props) => {
 		}, {
 			titleIdx: '02',
 			titleText: 'Java Programming Language',
-			description:'Learn about basic elements of Java programming,'
+			description:'Learn about basics of Java programming in comp131 - Introduction to programming class. In this class' +
+				'basic principles and general rules about coding were taught. In my second semester I took comp132- Advanced Programming course' +
+				'Where I learned object oriented programming in java, Graphical User Interfaces, Lambdas and streams, and error handling'
 		}, {
 			titleIdx: '03',
 			titleText: 'Assembly',
-			description:''
+			description:'Took comp201 - Computer Systems & Programming course. I learned about fundamental assembly' +
+				'instructions such as data movement, arithmetic and logic operations, and loops. I got learned most common ' +
+				'security vulnerabilities such as buffer overflows and code injections.' +
+				'Cache Memories and Memory organizations, linkin and code optimizations were also taught.'
 		}, {
 			titleIdx: '04',
 			titleText: 'JavaScript',
-			description:''
+			description:'In summer 2020 I started learning JavaScript and building small projects such as weather podcasting web app.  '
 		}, {
 			titleIdx: '05',
 			titleText: 'React.js',
-			description:''
+			description:'After working with JavaScript, I discovered React library and its amazing functionality, I have developed' +
+                ' many of my projects with react some of which are mentioned in experiences section. '
 		}, {
 			titleIdx: '06',
 			titleText: 'Node.js',
-			description:''
+			description:'I have used Node.js in my portfolio page along with my other web development projects'
 		}, {
 			titleIdx: '07',
 			titleText: 'Next.js',
-			description:''
+			description:'Started my journey with Next.js in summer for my server-side rendering web applications'
 		}, {
 			titleIdx: '08',
 			titleText: 'Sass',
-			description:''
+			description:'I used Sass in 2 of my projects including my portfolio website. '
 		}, {
 			titleIdx: '09',
 			titleText: 'Microsoft Office',
-			description:''
+			description:'I took Computer Proficiency Assessment Program (CPAP) test at university for advanced Excel and' +
+				' Powerpoint skills '
 		}, {
 			titleIdx: '10',
 			titleText: 'Git / Github VCS',
-			description:''
+			description:'I had basic knowledge of version control systems when I first started coding, but after taking comp201 course' +
+				'at university, I learned about Git and Github in more details and since then I have been using it while' +
+				'building my projects'
 		},
 		{
 			titleIdx: '11',
 			titleText: 'Video editing',
-			description:'yechizi begu'
+			description:'My journey in video editing and production started in high school where I joined a competition' +
+				'and starting creating stop motion videos. Since then I have been creating short videos.'
 		},
 		{
 			titleIdx: '12',
-			titleText: 'NOSQL Mongodb',
-			description:'yechizi begu'
+			titleText: 'NOSQL MongoDB',
+			description:'I have started learning about MongoDB from MongoDB university website. After finishing the basics' +
+				'I will start learning about its cluster administration and data modeling '
 		},
 	]
 	return (
@@ -141,11 +152,11 @@ const Skills = (props) => {
 					</QAnim>
 				</div>
 			</TabPane>
-			<TabPane tab={<div className="parent"><span className="hover hover-1">Courses</span></div>} key="3">
-				<p>There are people leaving here</p>
-				<p>3 AM mind</p>
-				{/*<p>Content of Tab Pane 3</p>*/}
-			</TabPane>
+			{/*<TabPane tab={<div className="parent"><span className="hover hover-1">Courses</span></div>} key="3">*/}
+			{/*	<p>There are people leaving here</p>*/}
+			{/*	<p>3 AM mind</p>*/}
+			{/*	/!*<p>Content of Tab Pane 3</p>*!/*/}
+			{/*</TabPane>*/}
 		</Tabs>
 
 	)

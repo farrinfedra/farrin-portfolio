@@ -20,20 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="555e9927-6ce5-4f57-9e02-f0e0a8a318fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/craig-ren-Fzttl9YEdno-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/Farrin-Marouf-Sofian-CV copy.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Content/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Content/MainContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/PagesX/SkillCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/PagesX/SkillCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/farrin-resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616896764786</updated>
       <workItem from="1616896766198" duration="1112000" />
-      <workItem from="1616898165667" duration="12465000" />
+      <workItem from="1616898165667" duration="14210000" />
+      <workItem from="1617019312856" duration="5706000" />
     </task>
     <servers />
   </component>
@@ -89,15 +86,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="185" key="EditFileWatcherDialog" timestamp="1616901638932">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="291" y="185" key="EditFileWatcherDialog/0.0.1280.800@0.0.1280.800" timestamp="1616901638932" />
-    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1616933617481">
+    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1617024987021">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1616933617481" />
+    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1617024987021" />
   </component>
 </project>

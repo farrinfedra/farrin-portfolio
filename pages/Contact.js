@@ -28,7 +28,7 @@ const Contact = (props) => {
 				>
 					<div>
 						<h3>Get In Touch</h3>
-						<p>I would like to hear from you</p>
+						<p>I would like to hear from you. Feel free to send me a message or an <a href="mailto:fsofian19@ku.edu.tr">Email</a>.</p>
 					</div>
 				</Col>
 				<Col span={12} offset={5}>
