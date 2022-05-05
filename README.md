@@ -1,16 +1,16 @@
 ## Farrin Portfolio Website
 > Hosted on Vercel
 
-### Implemented in:
+### Implemented in
 * React.js
 * Next.js
 * Node.js
 * Axios
 
-### Designed with:
+### Designed with
 * Sass
 * Ant Design
 
 
 ### Please visit
-[Farrin.](https://farrinfedra.vercel.app)
+### [Farrin.](https://farrinfedra.vercel.app)
