@@ -2,7 +2,7 @@ import React from 'react'
 import {Card, Col, List} from "antd";
 
 
-const SkillCard = ({cardData}) => {
+const CoursesCard = ({cardData}) => {
 
 	return cardData.map((title, i) => {
 		return (
@@ -16,7 +16,7 @@ const SkillCard = ({cardData}) => {
 
 }
 
-export default SkillCard;
+export default CoursesCard;
 
 
 

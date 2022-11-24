@@ -20,23 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="555e9927-6ce5-4f57-9e02-f0e0a8a318fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/static/milad-fakurian-nY14Fs8pxT8-unsplash.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Courses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Content/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Content/MainContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/PagesX/SkillCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/PagesX/CoursesCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +81,7 @@
       <workItem from="1637078870893" duration="3435000" />
       <workItem from="1650092925657" duration="3147000" />
       <workItem from="1650105037691" duration="234000" />
-      <workItem from="1669313961588" duration="1057000" />
+      <workItem from="1669313961588" duration="2667000" />
     </task>
     <servers />
   </component>

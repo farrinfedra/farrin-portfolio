@@ -37,6 +37,13 @@ const Sidebar = (props) => {
 						</a>
 					</Link>
 				</Menu.Item>
+				<Menu.Item key="4">
+					<Link href="/Courses">
+						<a>
+							Courses
+						</a>
+					</Link>
+				</Menu.Item>
 				<Menu.Item key="5">
 					<Link href="/Contact">
 						<a>

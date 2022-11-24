@@ -103,23 +103,23 @@
   padding: 1rem 2rem;
 }
 
-.skills-tab {
+.courses-tab {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.skills-tab .ant-tabs-nav {
+.courses-tab .ant-tabs-nav {
   padding: 1rem 2.5rem;
   width: 50%;
 }
-.skills-tab .ant-tabs-ink-bar {
+.courses-tab .ant-tabs-ink-bar {
   width: 0 !important;
 }
-.skills-tab .ant-tabs-nav-list {
+.courses-tab .ant-tabs-nav-list {
   width: 100%;
   justify-content: space-around;
 }
-.skills-tab .ant-tabs-content-holder {
+.courses-tab .ant-tabs-content-holder {
   padding: 1rem 2rem;
 }
 
