@@ -23,39 +23,39 @@ const About = () => {
 							<Col className="about-sections" xs={24} s={24} md={24} lg={12}>
 								<FontAwesomeIcon className="about-icons" icon={faCheckCircle}/>
 								<h4>Curious to Learn</h4>
-								<p className="about__desc">I've always been committed to lifelong learning and sharing my
-									knowledge
-									with
-									others</p>
+								{/*<p className="about__desc">I've always been committed to lifelong learning and sharing my*/}
+								{/*	knowledge*/}
+								{/*	with*/}
+								{/*	others</p>*/}
 							</Col>
 							<Col xs={24} s={24} md={24} lg={12}>
 								<FontAwesomeIcon className="about-icons" icon={faBullseye}/>
 								<h4>Ambitious</h4>
-								<p className="about__desc">Have a goal in my mind? <br/>I will work as hard as I can to achieve
-									it
-									<br/> Have a long-term goal in mind? I will plan ahead and never give up.
-								</p>
+								{/*<p className="about__desc">Have a goal in my mind? <br/>I will work as hard as I can to achieve*/}
+								{/*	it*/}
+								{/*	<br/> Have a long-term goal in mind? I will plan ahead and never give up.*/}
+								{/*</p>*/}
 							</Col>
 							<Col xs={24} s={24} md={24} lg={12}>
 								<FontAwesomeIcon className="about-icons" icon={faHeartbeat}/>
 								<h4>TeamWork</h4>
-								<p className="about__desc">I've been engaged in many group activities and projects which I've
-									enjoyed
-									so
-									much,
-									I've always also tried my best to do the best I can while working with others.
-								</p>
+								{/*<p className="about__desc">I've been engaged in many group activities and projects which I've*/}
+								{/*	enjoyed*/}
+								{/*	so*/}
+								{/*	much,*/}
+								{/*	I've always also tried my best to do the best I can while working with others.*/}
+								{/*</p>*/}
 							</Col>
 							<Col xs={24} s={24} md={24} lg={12}>
 								<FontAwesomeIcon className="about-icons" icon={faBriefcase}/>
 								<h4>Reliable and Consistent</h4>
-								<p className="about__desc">Given a responsibility or a task, I will plan ahead and dedicate
-									enough
-									time
-									to
-									make sure
-									everything goes according to the plan. I've always enjoyed taking responsibilities.
-								</p>
+								{/*<p className="about__desc">Given a responsibility or a task, I will plan ahead and dedicate*/}
+								{/*	enough*/}
+								{/*	time*/}
+								{/*	to*/}
+								{/*	make sure*/}
+								{/*	everything goes according to the plan. I've always enjoyed taking responsibilities.*/}
+								{/*</p>*/}
 							</Col>
 						</Row>
 					</Col>

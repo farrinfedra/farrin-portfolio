@@ -7,9 +7,9 @@ const {Sider, Content} = Layout
 const HomeLayout = (props) => {
 
 	return (
-		<div style={{height: "100%"}}>
+		<div style={{height: "100vh"}}>
 			<HeadData />
-			<Layout style={{height: '100%'}}>
+			<Layout style={{height: '100%', width: '100%'}}>
 				<Layout style={{height: '100%'}}>
 					<Sider className="sidebar">
 						<Sidebar/>

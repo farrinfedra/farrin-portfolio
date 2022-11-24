@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="555e9927-6ce5-4f57-9e02-f0e0a8a318fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/static/Farrin-Marouf-Sofian-CV copy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/milad-fakurian-nY14Fs8pxT8-unsplash.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Content/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Content/MainContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Elements/DownloadPDF.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/PagesX/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/static/farrin-resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Containers/Layout/HomeLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +41,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1qMkHzcz0xdoYT8lp16Pc2eF5wZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/static" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,6 +75,11 @@
       <workItem from="1616896766198" duration="1112000" />
       <workItem from="1616898165667" duration="14210000" />
       <workItem from="1617019312856" duration="5706000" />
+      <workItem from="1637073239637" duration="280000" />
+      <workItem from="1637078870893" duration="3435000" />
+      <workItem from="1650092925657" duration="3147000" />
+      <workItem from="1650105037691" duration="234000" />
+      <workItem from="1669313961588" duration="1057000" />
     </task>
     <servers />
   </component>
@@ -86,16 +96,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="291" y="185" key="EditFileWatcherDialog" timestamp="1616901638932">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="291" y="185" key="EditFileWatcherDialog/0.0.1280.800@0.0.1280.800" timestamp="1616901638932" />
-    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1617024987021">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="132" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1617024987021" />
   </component>
 </project>

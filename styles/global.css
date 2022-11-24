@@ -30,7 +30,8 @@
 }
 
 .sidebar {
-  background-color: #2b2e4a;
+  background-color: #0c0056;
+  /*#2b2e4a*/
   flex: 0 0 300px !important;
   width: 300px !important;
   max-width: 300px !important;

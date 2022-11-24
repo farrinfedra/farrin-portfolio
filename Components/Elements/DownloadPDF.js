@@ -5,7 +5,7 @@ import { DownloadOutlined } from '@ant-design/icons';
 const DownloadPDF = (props) => {
 
 	return (
-		<a href="/static/Farrin-Marouf-Sofian-CV copy.pdf">
+		<a href="/static/Farrin-Marouf-Sofian-CV copy.pdf" target="_blank">
 			<Button danger type="primary" icon={<DownloadOutlined />} shape="round">
 				Download CV
 			</Button>

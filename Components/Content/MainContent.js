@@ -20,7 +20,7 @@ const MainContent = (props) => {
 						wrapper="b"
 						steps={
 							[
-								'Computer Engineer', 1000, 'Developer', 500, 'Writer',400
+								'Computer Engineer', 1000, 'Developer', 500, 'Writer',500
 							]
 						}
 					/>
@@ -29,15 +29,14 @@ const MainContent = (props) => {
 					<a target="blank" href={'https://www.linkedin.com/in/farrin-marouf-sofian/'}>{getSVG('linkedin', {class: 'mx-3'})}</a>
 					<a target="blank" href={'https://github.com/farrinfedra'}>{getSVG('github', {class: 'mx-3'})}</a>
 				</div>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<p>Note: This website is currently under construction. I'm trying to add new features and complete it
-				<br/>Stay tuned!</p>
+				{/*<br/>*/}
+				{/*<br/>*/}
+				{/*<br/>*/}
+				{/*<br/>*/}
+				{/*<br/>*/}
+				{/*<br/>*/}
+				{/*<br/>*/}
+
 			</Col>
 		</Row>
 	)
