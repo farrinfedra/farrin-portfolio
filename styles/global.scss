@@ -1,4 +1,339 @@
-.logo-style{
+// Home page
+.home {
+  text-align: center;
+
+  & .vanta-canvas {
+	position: fixed !important;
+  }
+}
+
+// Main Container
+.c_main {
+  color: white;
+  width: 100vw;
+  height: 300vh;
+  display: block;
+  position: relative;
+  overflow: visible;
+
+  &::-webkit-scrollbar {
+	width: 0.5rem;
+  }
+
+  // make infinite scroll
+  &::-webkit-scrollbar-track {
+	background: transparent;
+  }
+
+  // Main Header co
+  & .h_main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+  }
+
+  //
+  & .b_main {
+	letter-spacing: 8px;
+	line-height: 3rem;
+	flex-grow: 2;
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+
+  // tabs container
+  & .t_main {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	justify-self: flex-end;
+	flex-grow: 0.3;
+	margin-bottom: 2rem;
+  }
+}
+
+
+// Project Page
+
+.p_cont {
+  height: 100vh;
+
+}
+
+
+.site-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 16px;
+}
+
+
+// Courses Page
+.ant-layout-content {
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
+
+// Project card
+
+.p_modal {
+  & * {
+	color: black;
+
+	& li {
+	  font-size: 1rem;
+	}
+
+	& p {
+	  font-size: 1rem;
+	}
+  }
+
+  & .ant-modal-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+
+  }
+
+  & .m-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+
+
+	& img {
+	  object-fit: cover;
+	  height: 62%;
+	  width: 80%;
+	  margin: 0 auto;
+	}
+
+	& .abstract {
+	  padding-left: 0.8rem;
+	  flex-basis: 50%;
+	}
+  }
+
+  & .anticon-close {
+	display: none;
+  }
+
+  & .ant-modal-body {
+	overflow: scroll;
+	overflow-x: hidden;
+  }
+
+  .sample-container {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 100%;
+
+	& .rhap_container {
+	  align-self: center;
+	  width: 50%;
+
+	  .rhap_additional-controls {
+		flex: 0.2 0 auto;
+	  }
+	}
+  }
+
+  .outcomes {
+	flex-basis: 50%;
+	align-self: flex-start;
+  }
+}
+
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+
+  & .github-icon {
+	width: 24px;
+	margin-bottom: 8px;
+	margin-left: 4px;
+  }
+
+  a {
+	text-decoration: none;
+	color: inherit;
+  }
+
+  & span {
+	font-style: italic;
+	margin-bottom: 6px;
+  }
+
+  & .git-link-container {
+	// create hover effect
+	padding: 5px;
+
+	&:hover {
+	  transform: translateX(5px);
+	  box-shadow: 0 0 5px rgba(12, 12, 12, 0.5);
+	  transition: all 0.3s ease-in-out;
+	}
+  }
+}
+
+.footer-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0.1rem 1rem;
+  padding: .1rem .1rem;
+  flex-basis: 50%;
+  justify-self: flex-end;
+
+  & .ant-tag {
+	font-size: .8rem;
+  }
+
+}
+
+.bird-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & .ant-tag {
+	border: none;
+  }
+
+  .bird-footer-tech {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	& .tagIcon {
+	  overflow: visible;
+	}
+  }
+}
+
+
+.p_card {
+  width: 100%;
+  height: 360px;
+  background: transparent;
+  position: relative;
+  display: flex;
+  //align-items: flex-end;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.4s ease-out;
+  box-shadow: 0 7px 10px rgba(black, 0.5);
+
+  & img {
+	border-radius: 10px;
+	width: 100%;
+	height: 300px;
+	//flex-grow: 0.6;
+	object-fit: contain;
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+
+  &:hover {
+	transform: translateY(30px);
+	//transform-origin: 50%;
+	&:before {
+	  opacity: 1
+	}
+
+	.info {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+
+  &:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background: rgba(black, 0.6);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+
+  .info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	z-index: 3;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+
+	& button {
+	  //padding: 0.6rem;
+	  background: white;
+	  transition: 0.4s ease;
+	  color: black;
+	}
+  }
+
+  .desc {
+	display: flex;
+	flex-grow: 0.2;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+  }
+
+}
+
+
+// Experience Page
+.c_experience {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  & .testf{
+	position: absolute !important;
+  }
+
+}
+
+
+
+
+.logo-style {
   text-align: center;
   width: 100%;
   height: 100%;
@@ -6,12 +341,19 @@
   color: white;
   font-size: 3rem;
   font-weight: bold;
- }
-.logo-span{
+}
+
+.logo-span {
   font-size: 3rem;
   color: red;
+  display: flex;
 
+  & h1 {
+	position: relative;
+	top: 1rem;
+  }
 }
+
 .contact {
   input {
 	border-radius: 50px;
@@ -33,7 +375,7 @@
 }
 
 .sidebar {
-  background-color: #89B5AF;
+  background-color: #0C0056;
   flex: 0 0 300px !important;
   width: 300px !important;
   max-width: 300px !important;
@@ -80,7 +422,8 @@
   }
 
 }
-.experience-title{
+
+.experience-title {
   margin: 2.5rem auto 2rem;
   text-align: center;
 }
@@ -89,9 +432,14 @@
   margin: 0 2rem;
   border-radius: 20px;
   box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+  height: 100%;
 
   &-info {
-	padding: 3rem 1rem 0;
+	padding: 1rem 1rem 0;
+  }
+
+  & .ant-card-head-title {
+	font-size: 1.7rem;
   }
 }
 
@@ -105,13 +453,9 @@
 
 .about-icons {
   font-size: 60px !important;
-  color: #0000 !important;
+  color: #902749 !important;
 }
 
-.home {
-  padding: 80px 40px 40px;
-  background-image: url('/static/milad-fakurian-nY14Fs8pxT8-unsplash.jpeg');
-}
 
 .about {
   &__desc {

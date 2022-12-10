@@ -14,7 +14,7 @@ const Experience = () => {
             <div className="site-card-wrapper">
                 <Row gutter={8}>
                     <Col sm={24} md={12} lg={12} span={12}>
-                        <Card className="experience-card" boredered={false}>
+                        <Card title="Research" className="experience-card" boredered={false}>
                             <div className="experience-card-info">
                                 <Timeline>
                                     <Timeline.Item color="green">
@@ -51,7 +51,7 @@ const Experience = () => {
                         </Card>
                     </Col>
                     <Col sm={24} md={12} lg={12} span={12}>
-                        <Card className="experience-card" boredered={false}>
+                        <Card title="Job" className="experience-card" boredered={false}>
                             <div className="experience-card-info">
                                 <Timeline>
                                     <Timeline.Item color="green">

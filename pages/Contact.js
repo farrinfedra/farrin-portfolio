@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Button, Col, Input, Row} from "antd";
 import {useFeedback} from "../utils/Hooks/useFeedback";
-import {modalMachine} from "../XState/machines/modalMachine";
+import {modalMachine} from "../State/machines/modalMachine";
 import {getMessages, sendEmail} from "../utils/utilFunctions";
 
 

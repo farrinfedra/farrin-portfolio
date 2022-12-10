@@ -19,9 +19,7 @@ const nextConfig = {
 		includePaths: [path.join(__dirname, 'styles')],
 	},
 	generateEtags: false,
-	// images:{
-	// 	domains:['res.cloudinary.com']
-	// },
+	// configure svg loader
 	webpack(config, options) {
 		const {isServer} = options;
 		config.resolve.alias = {
@@ -61,7 +59,8 @@ const nextConfig = {
 			}
 		}
 		return config;
-	},
+
+	}
 };
 
 
