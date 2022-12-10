@@ -8,10 +8,10 @@ const Avatar = (props) => {
 		<div>
 			<AntAvatar size={150} icon={
 				<Image
-					width={150}
-					height={150}
+					width={250}
+					height={250}
 					objectFit="cover"
-					src="/static/Farrin.JPG"/>
+					src="/static/Farrin.JPG" alt="Farrin Marouf Sofian"/>
 			}/>
 
 
