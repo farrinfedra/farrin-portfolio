@@ -13,7 +13,7 @@ export const birdsOfIst = {
 		'Fine-tuned the model on 270k bird recordings (400 species) in Turkey for Birds of Istanbul mobile application',
 		'Gathered and modified meta-data for 600k bird songs',
 		'Applied several pre-prossesing steps such as sound separation on the recordings',
-		'Worked with HPC clusters and contributed on writing documentation on how to use HPC clusters for graduate students'
+		'Trained models on High Performance Computing clusters and contributed on writing documentation on how to use HPC clusters for graduate students'
 	],
 	abstract: <div style={{
 		display: 'flex',

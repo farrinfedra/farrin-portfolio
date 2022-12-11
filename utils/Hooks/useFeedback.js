@@ -1,5 +1,5 @@
-import {useMachine} from "@xstate/react";
 import {feedbackMachine} from "../../State/machines/feedbackMachine";
+import {useMachine} from "@xstate/react";
 
 export const useFeedback = (machine, asyncSignal, reload = false, redirect = '') => {
 	const [voltageB, wire2] = useMachine(feedbackMachine, {
