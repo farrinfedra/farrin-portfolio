@@ -15,6 +15,9 @@ function MyApp({Component, pageProps}) {
 	return (
 
 		<ParallaxProvider>
+			<Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+            </Head>
 			<RecoilRoot>
 				<Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
 				        strategy="beforeInteractive"/>
@@ -30,5 +33,5 @@ function MyApp({Component, pageProps}) {
 
 	)
 }
-
+// new app layout 
 export default MyApp
