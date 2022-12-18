@@ -1,4 +1,4 @@
-import {useParallax, useParallaxController} from "react-scroll-parallax";
+import {useParallax} from "react-scroll-parallax";
 import {useEffect} from "react";
 import {currentTabAtom} from "../../State/Atoms/plxState";
 import {useRecoilValue} from "recoil";
@@ -12,19 +12,21 @@ const HomeTabs = () => {
 		scale: [1, 1.2],
 		//opacity: [1, 0.2],
 		speed: -10,
+		// rootMargin:{
+		//   bottom: 1
+		// },
 		onProgressChange: (progress) => {
 			if (tabsPrlx?.element?.progress > 0.70) {
 				tabsPrlx.ref.current.style.position = 'fixed'
 				tabsPrlx.ref.current.style.top = '30px'
 
-			} else {
+			} else if (tabsPrlx?.element?.progress < 0.70) {
 				tabsPrlx.ref.current.style.position = 'relative'
 				tabsPrlx.ref.current.style.top = '0px'
 			}
 		},
 		shouldAlwaysCompleteAnimation: true,
 	})
-
 
 	return (
 		<div ref={tabsPrlx.ref} className="t_main">
@@ -36,10 +38,6 @@ const HomeTabs = () => {
 				opacity: currTab === 'experience' ? 1 : 0.4,
 			}}
 			>Experience</h5>
-			<h5 style={{
-				opacity: currTab === 'skills' ? 1 : 0.4,
-			}}
-			>Coding Skills</h5>
 			<h5 style={{
 				opacity: currTab === 'about' ? 1 : 0.4,
 			}}

@@ -13,33 +13,30 @@ import {currentTabAtom} from "../State/Atoms/plxState";
 const ProjectPage = () => {
 	const setCurrTab = useSetRecoilState(currentTabAtom)
 	const pj1Plx = useParallax({
-		translateY: ['110vh', '10vh', 'easeOut'],
+		translateY: ['100vh', '-10vh', 'easeOut'],
 		opacity: [0.3, 1],
 		speed: -20,
 		shouldAlwaysCompleteAnimation: true,
 	})
 	const pj2Plx = useParallax({
-		translateY: ['110vh', '10vh', 'easeOut'],
+		translateY: ['100vh', '-10vh', 'easeOut'],
 		opacity: [0.3, 1],
 		speed: -20,
 		shouldAlwaysCompleteAnimation: true,
 	})
 	const pj3Plx = useParallax({
-		translateY: ['120vh', '10vh', 'easeOut'],
+		translateY: ['110vh', '-10vh', 'easeOut'],
 		opacity: [0.3, 1],
 		speed: -20,
 		shouldAlwaysCompleteAnimation: true,
 	})
 	const pj4Plx = useParallax({
-		translateY: ['120vh', '10vh', 'easeOut'],
+		translateY: ['110vh', '-10vh', 'easeOut'],
 		opacity: [0.3, 1],
 		speed: -20,
-		onProgressChange: (progress) => {
-			console.log(pj4Plx?.element.progress)
-			if (pj4Plx?.element.progress > 0.10 && pj4Plx?.element.progress < 0.30) {
+		onChange: (progress) => {
+			if (progress.progress > 0.20 && progress.progress < 0.80) {
 				setCurrTab('projects')
-			} else if (pj4Plx?.element.progress < 0.10) {
-				setCurrTab('home')
 			}
 		},
 		shouldAlwaysCompleteAnimation: true,
@@ -47,7 +44,7 @@ const ProjectPage = () => {
 
 
 	return (
-		<div id="projects" className="p_cont">
+		<div className="p_cont">
 			<Row>
 				<ProjectContainer r={pj1Plx.ref} projectData={birdsOfIst}>
 					<LilBirdies/>

@@ -1,116 +1,95 @@
 import {useParallax} from "react-scroll-parallax";
 import {useSetRecoilState} from "recoil";
 import {currentTabAtom} from "../State/Atoms/plxState";
-import {Card, Col, Row, Timeline} from "antd";
+import {Card, Col, List, Row, Timeline} from "antd";
 import {ClockCircleOutlined} from "@ant-design/icons";
 import React from "react";
 
 const ExperiencePage = () => {
 	const setCurrTab = useSetRecoilState(currentTabAtom)
 	const expPrlx = useParallax({
-		translateY: ['180vh', '10vh', 'easeOut'],
-		scale: [1, 1.2],
-		//opacity: [1, 0.2],
+		translateY: ['210vh', '30vh', 'easeOut'],
+
+		opacity: [1, 0.6],
 		speed: -10,
-		shouldAlwaysCompleteAnimation: true,
-		onProgressChange: (progress) => {
-			console.log(expPrlx?.element?.progress)
-			if (expPrlx?.element?.progress > 0.30 && expPrlx?.element?.progress < 0.40) {
+		onChange: (progress) => {
+			if (progress.progress > 0.40 && progress.progress < 0.70) {
 				setCurrTab('experience')
-			} else if (expPrlx?.element?.progress < 0.30) {
-				setCurrTab('projects')
 			}
-		}
+		},
+		shouldAlwaysCompleteAnimation: true,
 	})
 
 	const resPrlx = useParallax({
-		translateX: ['0vw', '-90vw', 'easeOut'],
-		translateY: ['0vh', '60vh', 'easeOut'],
-		opacity: [1, 0.4],
+		// translateX: ['0vw', '-90vw', 'easeOut'],
+		translateY: ['-50vh', '0vh', 'easeOut'],
+		opacity: [1, 0.6],
 		speed: -10,
-		//shouldAlwaysCompleteAnimation: true,
+		shouldAlwaysCompleteAnimation: true,
 	})
-	const workPrlx = useParallax({
-		translateX: ['0vw', '90vw', 'easeOut'],
-		translateY: ['0vh', '60vh', 'easeOut'],
-		opacity: [1, 0.4],
-		speed: -10,
-		//shouldAlwaysCompleteAnimation: true,
-	} )
+	// const workPrlx = useParallax({
+	// 	// translateX: ['0vw', '90vw', 'easeOut'],
+	// 	translateY: ['100vh', '60vh', 'easeOut'],
+	// 	opacity: [1, 0],
+	// 	speed: -20,
+	// 	shouldAlwaysCompleteAnimation: true,
+	// } )
 
 	return (
 		<div ref={expPrlx.ref} className="c_experience">
 			<Row justify="center" gutter={8}>
-				<Col ref={resPrlx.ref} span={24}>
-					<Card title="Research" className="experience-card" boredered={false}>
+				<Col ref={resPrlx.ref} offset={2} span={18}>
+					<Card title="Internships" className="experience-card" boredered={false}>
 						<div className="experience-card-info">
 							<Timeline>
-								<Timeline.Item color="green">
+								<Timeline.Item color="white">
 									2019 - Present
 									Education
-									<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-									<p>Bachelor's degree in Computer Engineering</p>
-								</Timeline.Item>
-								<Timeline.Item color="green">
-									10-2020
-									<h5 style={{fontWeight: 'bold'}}>Joined ACM Club</h5>
-									<p>Assisted in coordinating and organizing Hackathons in the Team</p>
-									<p>Helped arranging and directing workshops and mock interviews with various
-										companies.</p>
-								</Timeline.Item>
-								<Timeline.Item dot={<ClockCircleOutlined className="timeline-clock-icon"/>}
-								               color="red">
-									02-2021
-									<h5 style={{fontWeight: 'bold'}}>Section Leader</h5>
-									<p>Section Leader for Advanced programming in java course</p>
-									<p>Graded student's lab assignments and helped them during lab sessions</p>
+									<h5 style={{fontWeight: 'bolder'}}>Machine Learning Engineer Intern - RadiusAI</h5>
+									<p style={{
+										fontSize: '1rem',
+										fontStyle: 'italic',
+										fontWeight: 'bold'
+									}}>Worked as a Machine learning engineer in the Research and Development team to
+										work on camera calibration using static features in the images.
+									</p>
+									<br/>
+									<ul className="experience-card-info-list">
+										<li>Researched and proposed deep learning solutions for camera calibration
+											based on scene geometry.
+										</li>
+										<li>Evaluated the effectiveness of deep learning as well as other
+											traditional methods to solve the problem.
+										</li>
+										<li>Created the company’s first fully automated camera calibration, reducing
+											the company’s reliance on expensive annotators.
+										</li>
+									</ul>
 
 								</Timeline.Item>
-								{/*<Timeline.Item color="green">*/}
-								{/*    2019 - Freshman*/}
-								{/*    Semester 1 Courses*/}
-								{/*    <h5 style={{fontWeight: 'bold'}}>something good </h5>*/}
-
-								{/*</Timeline.Item>*/}
-
-
-							</Timeline>
-						</div>
-					</Card>
-				</Col>
-				<Col className="testf" ref={workPrlx.ref} span={24}>
-					<Card title="Research" className="experience-card" boredered={false}>
-						<div className="experience-card-info">
-							<Timeline>
-								<Timeline.Item color="green">
+								<Timeline.Item color="white">
 									2019 - Present
-									Education
-									<h5 style={{fontWeight: 'bold'}}>Koç University - Istanbul, Turkey</h5>
-									<p>Bachelor's degree in Computer Engineering</p>
+									<h5 style={{fontWeight: 'bolder'}}>Software Engineering - Digitopia</h5>
+									<p style={{
+										fontSize: '1rem',
+										fontStyle: 'italic',
+										fontWeight: 'bold'
+									}}>Worked as a Machine learning engineer in the Research and Development team to
+										work on camera calibration using static features in the images.
+									</p>
+									<br/>
+									<ul className="experience-card-info-list">
+										<li>Researched and proposed deep learning solutions for camera calibration
+											based on scene geometry.
+										</li>
+										<li>Evaluated the effectiveness of deep learning as well as other
+											traditional methods to solve the problem.
+										</li>
+										<li>Created the company’s first fully automated camera calibration, reducing
+											the company’s reliance on expensive annotators.
+										</li>
+									</ul>
 								</Timeline.Item>
-								<Timeline.Item color="green">
-									10-2020
-									<h5 style={{fontWeight: 'bold'}}>Joined ACM Club</h5>
-									<p>Assisted in coordinating and organizing Hackathons in the Team</p>
-									<p>Helped arranging and directing workshops and mock interviews with various
-										companies.</p>
-								</Timeline.Item>
-								<Timeline.Item dot={<ClockCircleOutlined className="timeline-clock-icon"/>}
-								               color="red">
-									02-2021
-									<h5 style={{fontWeight: 'bold'}}>Section Leader</h5>
-									<p>Section Leader for Advanced programming in java course</p>
-									<p>Graded student's lab assignments and helped them during lab sessions</p>
-
-								</Timeline.Item>
-								{/*<Timeline.Item color="green">*/}
-								{/*    2019 - Freshman*/}
-								{/*    Semester 1 Courses*/}
-								{/*    <h5 style={{fontWeight: 'bold'}}>something good </h5>*/}
-
-								{/*</Timeline.Item>*/}
-
-
 							</Timeline>
 						</div>
 					</Card>

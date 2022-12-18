@@ -6,7 +6,7 @@ const {Title} = Typography;
 
 const NameInfo = ({props}) => {
 	const infoPlx = useParallax({
-		translateY: ['0', '150', 'easeOut'],
+		translateY: ['0', '200', 'easeOut'],
 		scale: [1, 0.8],
 		opacity: [1, 0.1],
 		speed: -10,
