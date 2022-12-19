@@ -41,15 +41,11 @@ const AboutMePage = () => {
 				<div className="right_about">
 					<div className="about-me__card--info">
 						<p style={{width: "100%"}}>
-							I'm Farrin Marouf Sofian, a sophomore student studying Computer Engineering at Koç
-							University
-							Istanbul, Turkey. I enjoy inventing new things and starting creative projects, this is why I
-							chose
-							my career path as computer engineering to integrate different majors with my degree to
-							implement
-							intriguing projects.
-							This is my personal website. I have developed this website to share useful
-							content and connect with people around the world. Please take your time and explore!
+							Hey there! Thanks for visiting my website. I'm Farrin, a 4th year Computer Engineering / math minor student at Koç University.
+							Before that, I was a high school student at Manzoomeh Kherad Institute back at home: Tehran, Iran.
+							I'm currently working at KUIS AI Lab as a research assistant while enjoying a variety of courses at Koç.
+							<br/>
+							 
 						</p>
 					</div>
 					<div className="about-me__card--extra">
