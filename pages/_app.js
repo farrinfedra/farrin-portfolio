@@ -6,7 +6,7 @@ import Script from "next/script" ;
 import {ParallaxProvider} from "react-scroll-parallax";
 import {RecoilRoot} from "recoil";
 import {ConfigProvider, theme} from "antd";
-//import {Head} from "next/document";
+import Head from "next/head";
 
 
 function MyApp({Component, pageProps}) {
@@ -17,7 +17,8 @@ function MyApp({Component, pageProps}) {
 
 		<ParallaxProvider>
 			<Head>	
-                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+				maximum-scale=1.0,user-scalable=0" />
             </Head>
 			<RecoilRoot>
 				
