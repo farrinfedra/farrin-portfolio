@@ -6,6 +6,7 @@ import Script from "next/script" ;
 import {ParallaxProvider} from "react-scroll-parallax";
 import {RecoilRoot} from "recoil";
 import {ConfigProvider, theme} from "antd";
+//import {Head} from "next/document";
 
 
 function MyApp({Component, pageProps}) {
@@ -15,10 +16,11 @@ function MyApp({Component, pageProps}) {
 	return (
 
 		<ParallaxProvider>
-			<Head>
+			<Head>	
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
             </Head>
 			<RecoilRoot>
+				
 				<Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
 				        strategy="beforeInteractive"/>
 				<Script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js" strategy="afterInteractive"/>
@@ -33,5 +35,5 @@ function MyApp({Component, pageProps}) {
 
 	)
 }
-// new app layout 
+
 export default MyApp

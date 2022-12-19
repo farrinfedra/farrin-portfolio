@@ -74,20 +74,16 @@ const ExperiencePage = () => {
 										fontSize: '1rem',
 										fontStyle: 'italic',
 										fontWeight: 'bold'
-									}}>Worked as a Machine learning engineer in the Research and Development team to
-										work on camera calibration using static features in the images.
+									}}>Worked as a backend developer in the Development team to
+										create dynamic pdf generator to illustrate enterprise statistics.
 									</p>
 									<br/>
 									<ul className="experience-card-info-list">
-										<li>Researched and proposed deep learning solutions for camera calibration
-											based on scene geometry.
-										</li>
-										<li>Evaluated the effectiveness of deep learning as well as other
-											traditional methods to solve the problem.
-										</li>
-										<li>Created the company’s first fully automated camera calibration, reducing
-											the company’s reliance on expensive annotators.
-										</li>
+										<li>Designed the company’s main product for providing marketing analytics for large enterprises.</li>
+										<li>Created a dynamic PDF generator from user dashboard results using Handlebars, JavaScript and
+										Node.js.</li>
+										<li>Participated in Agile workflow as part of the development team.</li>
+										
 									</ul>
 								</Timeline.Item>
 							</Timeline>
