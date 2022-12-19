@@ -46,7 +46,7 @@ const userEmailData = (from, to, clientUrl) => {
 		<h3>Thank you for your interest</h3>
 		<br />
 		<p>This is an automated email. </p> 
-		<p>I have received your email. I will contact you as soon as possible</p>
+		<p>Thanks for reaching out! I have received your email and I will contact you as soon as possible</p>
 		<br/>
 		<hr/>
 		<br/>
